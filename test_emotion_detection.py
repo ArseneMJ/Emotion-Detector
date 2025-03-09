@@ -1,6 +1,6 @@
 import unittest
 from EmotionDetection.emotion_detection import emotion_detector
-class TestSum(unittest.TestCase):
+class TestEmotions(unittest.TestCase):
 
     def test_joy(self):
         self.assertEqual(emotion_detector('I am glad this happened')['dominant_emotion'], 'joy') 
